@@ -19,7 +19,7 @@ namespace KonturMaps
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            var intent = new Intent(this, typeof(FriendsActivity));
+            var intent = new Intent(this, typeof(FriendActivity));
             if (userId == tryId)
             {
                 StartActivity(intent);
@@ -30,22 +30,22 @@ namespace KonturMaps
             // Get our button from the layout resource,
             // and attach an event to it
             Button button = FindViewById<Button>(Resource.Id.acceptButton);
-
+            
             EditText password = FindViewById<EditText>(Resource.Id.editText1);
-
+            EditText telNum = FindViewById<EditText>(Resource.Id.editText2);
 
             button.Click += (object sender, EventArgs e) =>
             {
-                if (String.IsNullOrWhiteSpace(password.Text))
+                if (String.IsNullOrWhiteSpace(password.Text) || String.IsNullOrWhiteSpace(telNum.Text))
                 {
                     var callDialog = new AlertDialog.Builder(this);
-                    callDialog.SetMessage("Введите пароль!");
+                    callDialog.SetMessage("Введите данные!");
                     callDialog.SetNegativeButton("Cancel", delegate { });
                     callDialog.Show();
                 }
                 else
                 {
-                    tempP = password.Text;
+                    tempP = password.Text + telNum.Text;
                     StartActivity(intent);
                 }
 

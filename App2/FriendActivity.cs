@@ -14,7 +14,7 @@ using Android.Provider;
 namespace KonturMaps
 {
     [Activity(Label = "FriendsActivity")]
-    public class FriendsActivity : Activity
+    public class FriendActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
