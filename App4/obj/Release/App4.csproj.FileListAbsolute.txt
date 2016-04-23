@@ -1,0 +1,14 @@
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.dll
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.pdb
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.App4.apk
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.App4-Signed.apk
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\App4.dll
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\App4.pdb
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\android\bin\App4.App4.apk
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\res\layout\main.xml
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\res\values\strings.xml
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\res\drawable\icon.png
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\R.cs.flag
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\uploadflags.txt
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\App4.dll.mdb
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.dll.mdb

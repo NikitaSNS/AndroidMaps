@@ -1,0 +1,15 @@
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Debug\App4.dll
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Debug\App4.pdb
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Debug\App4.App4.apk
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Debug\App4.App4-Signed.apk
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\App4.csprojResolveAssemblyReference.cache
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\App4.dll
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\App4.pdb
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\android\bin\App4.App4.apk
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\res\layout\main.xml
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\res\values\strings.xml
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\res\drawable\icon.png
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\R.cs.flag
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\uploadflags.txt
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Debug\App4.dll.mdb
+c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Debug\App4.dll.mdb

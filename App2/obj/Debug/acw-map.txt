@@ -1,8 +1,0 @@
-KonturMaps.FriendsActivity, StartPage;md511ba2e3bc8aebe63c6dd81e43b4a6068.FriendsActivity
-KonturMaps.FriendsActivity, StartPage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md511ba2e3bc8aebe63c6dd81e43b4a6068.FriendsActivity
-KonturMaps.FriendsActivity;md511ba2e3bc8aebe63c6dd81e43b4a6068.FriendsActivity
-konturmaps.FriendsActivity;md511ba2e3bc8aebe63c6dd81e43b4a6068.FriendsActivity
-KonturMaps.MainActivity, StartPage;md511ba2e3bc8aebe63c6dd81e43b4a6068.MainActivity
-KonturMaps.MainActivity, StartPage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md511ba2e3bc8aebe63c6dd81e43b4a6068.MainActivity
-KonturMaps.MainActivity;md511ba2e3bc8aebe63c6dd81e43b4a6068.MainActivity
-konturmaps.MainActivity;md511ba2e3bc8aebe63c6dd81e43b4a6068.MainActivity
