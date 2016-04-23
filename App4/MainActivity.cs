@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.Runtime;
@@ -7,6 +10,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Provider;
 using Android.Telephony;
+using Xamarin.Contacts;
 
 namespace App4
 {
@@ -30,16 +34,37 @@ namespace App4
 
             button.Click += delegate
             {
-                TelephonyManager mTelephonyMgr;
+                var book = new Xamarin.Contacts.AddressBook(this);
+                book.RequestPermission().ContinueWith(t => {
+                    if (!t.Result)
+                    {
+                        Console.WriteLine("Permission denied by user or manifest");
+                        return;
+                    }
 
-                mTelephonyMgr = (TelephonyManager)GetSystemService(TelephonyService);
-                string[] projection = 
+                    foreach (Contact contact in book.OrderBy(c => c.LastName))
+                    {
+                        Console.WriteLine("{0} {1}", contact.FirstName, contact.LastName);
+                    }
+                }, TaskScheduler.FromCurrentSynchronizationContext());
+
+                var phoneNumbers = new List<List<string>>();
+                
+                foreach (var item in book)
                 {
-                    ContactsContract.Contacts.InterfaceConsts.Id,
-                    ContactsContract.Contacts.InterfaceConsts.DisplayName
-                };
+                    var items = item.Phones.Select(x => x.Number).ToList();
+                    phoneNumbers.Add(items);
+                }
+
+                var complitedPhoneNumbers = phoneNumbers.Select(x => x[0]).ToList();
+
+                button.Text = string.Format("{0} clicks!", 1);
+
+                #region Get my telephone number
+                //TelephonyManager mTelephonyMgr;
+                //mTelephonyMgr = (TelephonyManager)GetSystemService(TelephonyService);
                 //return mTelephonyMgr.Line1Number;
-                button.Text = string.Format("{0} clicks!", mTelephonyMgr.Line1Number);
+                #endregion
             };
         }
     }

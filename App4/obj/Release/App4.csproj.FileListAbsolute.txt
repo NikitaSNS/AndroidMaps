@@ -10,5 +10,6 @@ c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\res\
 c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\res\drawable\icon.png
 c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\R.cs.flag
 c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\uploadflags.txt
-c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\App4.dll.mdb
-c:\users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.dll.mdb
+C:\Users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\App4.csprojResolveAssemblyReference.cache
+C:\Users\zawert\documents\visual studio 2015\Projects\App4\App4\obj\Release\App4.dll.mdb
+C:\Users\zawert\documents\visual studio 2015\Projects\App4\App4\bin\Release\App4.dll.mdb
