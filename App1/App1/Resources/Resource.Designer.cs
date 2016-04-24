@@ -45,19 +45,28 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int frends = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int text_logo = 2130837505;
+			public const int Icon = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int text_password = 2130837506;
+			public const int map = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int text_phone = 2130837507;
+			public const int setting = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int text_start = 2130837508;
+			public const int text_logo = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int text_password = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int text_phone = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int text_start = 2130837511;
 			
 			static Drawable()
 			{
@@ -90,6 +99,9 @@ namespace App1
 			// aapt resource value: 0x7f050005
 			public const int imageView3 = 2131034117;
 			
+			// aapt resource value: 0x7f050006
+			public const int imageView4 = 2131034118;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -104,7 +116,16 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int FriendsList = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int MapsLayout = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Menu = 2130903043;
 			
 			static Layout()
 			{
