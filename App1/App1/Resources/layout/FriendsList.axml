@@ -4,11 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
+    android:background="#ca4646"
     android:minHeight="25px">
+    <ImageView
+        android:src="@drawable/text_logo"
+        android:layout_width="match_parent"
+        android:layout_height="87.0dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="80dip" />
+    <ImageView
+        android:src="@drawable/frend_info"
+        android:layout_width="match_parent"
+        android:layout_height="87.0dp"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="20dip" />
     <ListView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/listView1" />
+        android:id="@+id/listView1"
+        android:background="#ca4646" />
 </LinearLayout>

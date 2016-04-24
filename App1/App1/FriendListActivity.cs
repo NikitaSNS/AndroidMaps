@@ -2,13 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Xamarin.Contacts;
 
 namespace App1
 {
@@ -21,13 +22,19 @@ namespace App1
         {
             base.OnCreate(bundle);
 
+            this.Window.AddFlags(WindowManagerFlags.Fullscreen);
+            RequestWindowFeature(WindowFeatures.NoTitle);
+
             SetContentView(Resource.Layout.FriendsList);
             frView = FindViewById<ListView>(Resource.Id.listView1);
+
             friendsList = new List<string>();
-            for (int i = 0; i < 15; i++)
+            var book = new Xamarin.Contacts.AddressBook(this);
+            foreach (var contact in book)
             {
-                friendsList.Add(string.Format("{0}. Petya", i+1));
+                friendsList.Add(contact.DisplayName);
             }
+            
 
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemActivated1, friendsList);
 

@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -28,7 +27,7 @@ namespace App1
             ImageView button3 = FindViewById<ImageView>(Resource.Id.imageView4);
 
             button1.Click += delegate { StartActivity(typeof (FriendListActivity)); };
-            button2.Click += delegate { StartActivity(typeof(MapActivity)); };
+            button2.Click += delegate { StartActivity(typeof(FriendListActivity)); };
             button3.Click += delegate { StartActivity(typeof(FriendListActivity)); };
         }
     }

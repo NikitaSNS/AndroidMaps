@@ -45,28 +45,40 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int frends = 2130837504;
+			public const int fake = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int frend_info = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int map = 2130837506;
+			public const int frends = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int setting = 2130837507;
+			public const int Icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int text_logo = 2130837508;
+			public const int Icon3 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int text_password = 2130837509;
+			public const int map = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int text_phone = 2130837510;
+			public const int map4 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int text_start = 2130837511;
+			public const int setting = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int text_logo = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int text_password = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int text_phone = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int text_start = 2130837515;
 			
 			static Drawable()
 			{
@@ -90,8 +102,8 @@ namespace App1
 			// aapt resource value: 0x7f050005
 			public const int imageButton1 = 2131034117;
 			
-			// aapt resource value: 0x7f050001
-			public const int imageView1 = 2131034113;
+			// aapt resource value: 0x7f050000
+			public const int imageView1 = 2131034112;
 			
 			// aapt resource value: 0x7f050003
 			public const int imageView2 = 2131034115;
@@ -102,8 +114,8 @@ namespace App1
 			// aapt resource value: 0x7f050007
 			public const int imageView4 = 2131034119;
 			
-			// aapt resource value: 0x7f050000
-			public const int listView1 = 2131034112;
+			// aapt resource value: 0x7f050001
+			public const int listView1 = 2131034113;
 			
 			static Id()
 			{
@@ -125,10 +137,7 @@ namespace App1
 			public const int Main = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int MapsLayout = 2130903042;
-			
-			// aapt resource value: 0x7f030003
-			public const int Menu = 2130903043;
+			public const int Menu = 2130903042;
 			
 			static Layout()
 			{

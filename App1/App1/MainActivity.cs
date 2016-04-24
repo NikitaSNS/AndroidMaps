@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace App1
 {
-    [Activity(Label = "App1", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Контурные карты", MainLauncher = true, Icon = "@drawable/icon3")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
