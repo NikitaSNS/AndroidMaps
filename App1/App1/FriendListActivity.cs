@@ -21,10 +21,13 @@ namespace App1
         {
             base.OnCreate(bundle);
 
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.FriendsList);
             frView = FindViewById<ListView>(Resource.Id.listView1);
             friendsList = new List<string>();
-            friendsList.Add("Petya");
+            for (int i = 0; i < 15; i++)
+            {
+                friendsList.Add(string.Format("{0}. Petya", i+1));
+            }
 
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemActivated1, friendsList);
 

@@ -14,7 +14,8 @@
         android:src="@drawable/frends"
         android:layout_width="match_parent"
         android:layout_height="200.5dp"
-        android:id="@+id/imageView2" />
+        android:id="@+id/imageView2"
+        android:clickable="true" />
     <ImageView
         android:src="@drawable/map"
         android:layout_width="match_parent"

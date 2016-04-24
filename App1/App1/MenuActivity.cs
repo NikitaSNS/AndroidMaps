@@ -22,6 +22,14 @@ namespace App1
             RequestWindowFeature(WindowFeatures.NoTitle);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Menu);
+
+            ImageView button1 = FindViewById<ImageView>(Resource.Id.imageView2);
+            ImageView button2 = FindViewById<ImageView>(Resource.Id.imageView3);
+            ImageView button3 = FindViewById<ImageView>(Resource.Id.imageView4);
+
+            button1.Click += delegate { StartActivity(typeof (FriendListActivity)); };
+            button2.Click += delegate { StartActivity(typeof(MapActivity)); };
+            button3.Click += delegate { StartActivity(typeof(FriendListActivity)); };
         }
     }
 }
