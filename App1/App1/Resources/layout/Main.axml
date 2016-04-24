@@ -2,25 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="#ca4646">
     <ImageView
-        android:src="@drawable/ic_menu_gallery"
-        android:layout_width="385.5dp"
-        android:layout_height="95.0dp"
-        android:id="@+id/imageView1" />
+        android:src="@drawable/text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="85dip"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="80dip" />
     <EditText
         android:inputType="phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1" />
+        android:id="@+id/editText1"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="#ddd"
+        android:layout_marginTop="10dip" />
     <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/text_password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2" />
+        android:layout_height="85dip"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="20dip" />
     <EditText
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2" />
+        android:id="@+id/editText2"
+        android:background="#ddd"
+        android:layout_marginRight="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip" />
+    <ImageButton
+        android:src="@drawable/text_start"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:id="@+id/imageButton1"
+        android:background="#ca4646"
+        android:layout_marginTop="30dip" />
+    <ImageView
+        android:src="@drawable/text_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3" />
 </LinearLayout>
