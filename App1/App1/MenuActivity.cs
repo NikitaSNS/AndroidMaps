@@ -8,6 +8,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using App1.Resources.layout;
 
 namespace App1
 {
@@ -27,7 +28,7 @@ namespace App1
             ImageView button3 = FindViewById<ImageView>(Resource.Id.imageView4);
 
             button1.Click += delegate { StartActivity(typeof (FriendListActivity)); };
-            button2.Click += delegate { StartActivity(typeof(FriendListActivity)); };
+            button2.Click += delegate { StartActivity(typeof(newmapActivity)); };
             button3.Click += delegate { StartActivity(typeof(FriendListActivity)); };
         }
     }
